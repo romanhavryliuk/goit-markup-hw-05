@@ -443,6 +443,7 @@ img {
 .footer-icons {
     width: 208px;
     height: 80px;
+    margin-right: 80px;
 }
 
 .footer-icon-text {
@@ -496,4 +497,70 @@ img {
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
+}
+
+.footer-subscribe {
+    width: 453px;
+    height: 80px;
+    margin-left: auto;
+}
+
+.footer-subscribe-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.footer-form {
+    display: flex;
+}
+
+.footer-form-input {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    background: #2e2f42;
+    padding-left: 16px;
+    margin-right: 24px;
+
+    &::placeholder {
+        font-size: 16px;
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.04em;
+        color: #fff;
+    }
+}
+
+.footer-form-btn {
+    border-radius: 4px;
+    padding: 8px 24px;
+    min-width: 165px;
+    height: 40px;
+    background: #4d5ae5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    gap: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-form-btn:hover,
+.footer-form-btn:focus {
+    background-color: #404bbf;
+}
+
+.footer-btn-icon {
+    fill: #fff;
 }
