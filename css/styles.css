@@ -527,14 +527,14 @@ img {
     margin-right: 24px;
     padding: 8px 16px;
     color: #fcfcfc;
+}
 
-    &::placeholder {
-        font-size: 16px;
-        font-size: 12px;
-        line-height: 2;
-        letter-spacing: 0.04em;
-        color: #fff;
-    }
+.footer-form-input::placeholder {
+    font-size: 16px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #fff;
 }
 
 .footer-form-btn {
@@ -698,13 +698,13 @@ img {
     padding: 8px 16px;
     resize: none;
     margin-bottom: 16px;
+}
 
-    &::placeholder {
-        font-size: 12px;
-        line-height: 1.17;
-        letter-spacing: 0.04em;
-        color: rgba(46, 47, 66, 0.4)
-    }
+.modal-textarea::placeholder {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4)
 }
 
 .modal-textarea:focus {
@@ -718,13 +718,13 @@ img {
     display: flex;
     align-items: center;
     margin-bottom: 24px;
+}
 
-    a {
-        line-height: 1.33;
-        text-decoration: underline;
-        text-decoration-skip-ink: none;
-        color: #4d5ae5;
-    }
+.check-policy {
+    line-height: 1.33;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
 }
 
 .modal-check {
