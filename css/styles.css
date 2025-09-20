@@ -681,7 +681,7 @@ img {
 }
 
 .modal-element {
-    outline: none;
+    outline: transparent;
     border: none;
     border-radius: 4px;
     width: 100%;
@@ -705,7 +705,6 @@ img {
 }
 
 .modal-textarea {
-    outline: transparent;
     background-color: transparent;
     color: rgba(46, 47, 66, 0.4);
     letter-spacing: 0.04em;
@@ -763,7 +762,7 @@ img {
 }
 
 .modal-checkbox-text {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .modal-checkbox:checked + label > span {
