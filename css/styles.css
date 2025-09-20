@@ -675,6 +675,8 @@ img {
     height: 40px;
     padding-left: 38px;
     padding-right: 16px;
+    outline: transparent;
+    background-color: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -703,6 +705,12 @@ img {
 }
 
 .modal-textarea {
+    outline: transparent;
+    background-color: transparent;
+    color: rgba(46, 47, 66, 0.4);
+    letter-spacing: 0.04em;
+    line-height: 1.17;
+    font-size: 12px; 
     height: 120px;
     padding: 8px 16px;
     resize: none;
@@ -738,9 +746,10 @@ img {
 }
 
 .modal-check {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
+    fill: transparent;
     width: 16px;
     height: 16px;
     border-radius: 2px;
@@ -751,6 +760,10 @@ img {
 
 .modal-check-icon {
     fill: #f4f4fd;
+}
+
+.modal-checkbox-text {
+    margin-bottom: 24px;
 }
 
 .modal-checkbox:checked + label > span {
@@ -767,6 +780,8 @@ img {
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
+    cursor: pointer;
+    border: none;
     margin: 0 auto;
 
     font-weight: 500;
